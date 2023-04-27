@@ -1,0 +1,69 @@
+.container{
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color:#990fff;
+    background: linear-gradient(to right,#990fff,#cc80ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox{
+
+    min-width: 500px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    padding:30px ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .error-msg{
+            font-weight: bold;
+            font-family: 0.8rem;
+            color: #f30e0e;
+}
+.footer button{
+    outline: none;
+    border: none;
+    background-color: #8f02f4;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color: #a638f0;
+}
+.footer p {
+    font-weight: 700;
+    color: #000;
+}
+.footer  p span a {
+    font-weight: bold;
+    color: #9306f8;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+/* disable button */
+.footer button:disabled{
+    background-color: gray !important;
+
+}
